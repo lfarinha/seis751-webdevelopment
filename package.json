@@ -2,11 +2,14 @@
   "name": "seis751",
   "version": "1.0.0",
   "description": "SEIS 751 class development",
-  "main": "index.js",
+  "main": "server.js",
   "dependencies": {
+    "express": "^4.16.0",
     "node": "^8.3.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@types/express": "^4.0.37"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -14,10 +17,10 @@
     "type": "git",
     "url": "git+https://github.com/lfarinha/seis751-webdevelopment.git"
   },
-  "author": "",
+  "author": "Leonardo Farinha",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/lfarinha/seis751-webdevelopment/issues"
   },
-  "homepage": "https://github.com/lfarinha/seis751-webdevelopment#readme"
+  "homepage": "http://linux2.gps.stthomas.edu/~fari0022/practice/"
 }
