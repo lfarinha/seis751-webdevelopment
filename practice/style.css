@@ -1,0 +1,90 @@
+header {
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+body {
+    background-color: #004c99;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+img {
+    width: 128px;
+    height:128px;
+}
+
+
+.menu ul{
+    border:solid darkblue;
+    background-color: darkblue;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.menu li {
+    float: left;
+}
+
+.menu a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu a:hover{
+    background-color: darkblue;
+}
+
+#logo-img {
+    width: 128px;
+    /*border: 2px solid black;*/
+    padding: 25px;
+    margin-left: 25px;
+    display: inline-block;
+}
+
+#header {
+    width: 300px;
+    position: relative;
+    top:-50px;
+    /*border: 2px solid black;*/
+    padding: 25px;
+    margin-left: 5px;
+    display: inline-block;
+}
+
+#squad {
+    position: relative;
+    margin-left: 700px;
+    color: white;
+    font-size: 25px !important;
+}
+
+#stadium {
+    width:1280px;
+    height:720px;
+    position: relative;
+    margin-left:280px;
+}
+
+/*#footer {*/
+    /*display: inline-block;*/
+    /*position: fixed;*/
+    /*left:0;*/
+    /*right:0;*/
+    /*bottom:0;*/
+    /*margin:5px;*/
+    /*padding:0;*/
+/*}*/
+
+#footer {
+    position:relative;
+    bottom:0;
+    width:100%;
+}
