@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d36c380-e367-43b0-8811-4cabf46db8ed" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assignments/stadium2.html" afterPath="$PROJECT_DIR$/assignments/stadium2.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assignments/style.css" afterPath="$PROJECT_DIR$/assignments/style.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -40,8 +39,8 @@
       <file leaf-file-name="stadium2.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assignments/stadium2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="35" column="26" lean-forward="true" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
+            <state relative-caret-position="80">
+              <caret line="22" column="27" lean-forward="false" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
               <folding>
                 <element signature="n#style#0;n#a#0;n#p#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -52,8 +51,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assignments/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="638">
-              <caret line="92" column="18" lean-forward="true" selection-start-line="92" selection-start-column="18" selection-end-line="92" selection-end-column="18" />
+            <state relative-caret-position="620">
+              <caret line="91" column="17" lean-forward="true" selection-start-line="91" selection-start-column="17" selection-end-line="91" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -103,8 +102,8 @@
         <option value="$PROJECT_DIR$/assignments/app.js" />
         <option value="$PROJECT_DIR$/assignments/squad.html" />
         <option value="$PROJECT_DIR$/assignments/index.html" />
-        <option value="$PROJECT_DIR$/assignments/style.css" />
         <option value="$PROJECT_DIR$/assignments/stadium2.html" />
+        <option value="$PROJECT_DIR$/assignments/style.css" />
       </list>
     </option>
   </component>
@@ -234,12 +233,12 @@
       <workItem from="1506906149060" duration="3304000" />
       <workItem from="1507398455471" duration="1025000" />
       <workItem from="1507487586162" duration="523000" />
-      <workItem from="1507488238160" duration="7400000" />
+      <workItem from="1507488238160" duration="7623000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34466000" />
+    <option name="totallyTimeSpent" value="34689000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="3255" y="30" width="1865" height="1050" extended-state="6" />
@@ -572,16 +571,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assignments/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="92" column="18" lean-forward="true" selection-start-line="92" selection-start-column="18" selection-end-line="92" selection-end-column="18" />
+        <state relative-caret-position="620">
+          <caret line="91" column="17" lean-forward="true" selection-start-line="91" selection-start-column="17" selection-end-line="91" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assignments/stadium2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="35" column="26" lean-forward="true" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
+        <state relative-caret-position="80">
+          <caret line="22" column="27" lean-forward="false" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
           <folding>
             <element signature="n#style#0;n#a#0;n#p#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
