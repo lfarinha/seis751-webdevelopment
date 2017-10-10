@@ -12,5 +12,6 @@
     <orderEntry type="library" name="react-dom.development" level="application" />
     <orderEntry type="library" name="angular" level="application" />
     <orderEntry type="library" name="custom-elements" level="application" />
+    <orderEntry type="library" name="webcomponents-lite" level="application" />
   </component>
 </module>
