@@ -16,6 +16,10 @@ img {
 }
 
 
+.menu {
+    text-align: center;
+}
+
 .menu ul{
     border:solid darkblue;
     background-color: darkblue;
@@ -26,12 +30,14 @@ img {
 }
 
 .menu li {
-    float: left;
+    display: inline;
 }
 
 .menu a {
-    display: block;
+    display: inline-block;
     color: white;
+    font-weight: bold;
+    font-size: 30px;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -40,7 +46,6 @@ img {
 .menu a:hover{
     background-color: #0000ff;
 }
-
 #logo-img {
     width: 128px;
     /*border: 2px solid black;*/

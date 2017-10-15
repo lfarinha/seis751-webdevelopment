@@ -13,8 +13,8 @@
 
 html {
     color: white;
-    font-size: 1em;
-    line-height: 1.4;
+    /*font-size: 1em;*/
+    /*line-height: 1.4;*/
 }
 
 /*
@@ -94,11 +94,11 @@ textarea {
    ========================================================================== */
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif !important;
     background-color: #004c99;
 }
 
-img {
+.logo-img, img {
     width: 128px;
     height:128px;
 }
@@ -135,12 +135,15 @@ img {
 }
 
 #header {
-    width: 300px;
+    text-align: center;
+    display:block;
+    width: 50%;
     position: relative;
-    top:-50px;
+    margin:auto;
+    margin-top:-100px;
+    margin-bottom: 30px;
+    font-size: 500% !important;
     padding: 0px;
-    margin-left: 45%;
-    display: inline-block;
 }
 
 .browserupgrade {
