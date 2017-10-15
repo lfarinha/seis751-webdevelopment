@@ -2,7 +2,7 @@
 
 /* Document
    ========================================================================== */
-
+@import "https://fonts.googleapis.com/css?family=Roboto";
 /**
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in
@@ -242,7 +242,7 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: sans-serif; /* 1 */
+  font-family: 'Roboto', sans-serif; /* 1 */
   font-size: 100%; /* 1 */
   line-height: 1.15; /* 1 */
   margin: 0; /* 2 */
