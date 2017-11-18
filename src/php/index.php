@@ -1,3 +1,5 @@
+<?php
+echo '
 <!DOCTYPE html>
 <html>
 <head>
@@ -6,6 +8,15 @@
     <script src="../js/config.js" type="text/javascript"></script>
 </head>
 <body onload="setPageTitle()">
-  <?php require 'links.php'; ?>
-</body>
-</html>
+<div id="logo-img">
+    <img src="../image/chelsea-logo.png">
+</div>
+<div id="header">
+    <header>Chelsea FC</header>
+</div>
+';
+  require 'links.php';
+echo '</body>
+</html>'
+;
+?>
