@@ -1,7 +1,8 @@
-<!DOCTYPE html>
+<?php
+echo '<!DOCTYPE html>
 <html>
 <head>
-    <link rel="import" href="loader.html">
+    <link rel="import" href="../html/loader.html">
     <link rel="icon" type="image/png" href="../icon/chelsea-converted.png">
     <script src="../js/config.js" type="text/javascript"></script>
     <script src="../js/app.js" type="text/javascript"></script>
@@ -33,25 +34,23 @@
 <div id="ticket-area">
     <br>
 <h2 align="center">Ticket Request Form</h2>
-<form id="ticket-form" method="get" action="#">
-    <p>First Name</p><input type="text">
-    <p>Last Name</p><input type="text">
-    <p>Number of tickets</p><input type="text">
-    <p>Event Date</p><input type="date"><br>
-    <input type="button" value="Buy">
+<form id="ticket-form" method="post" action="action.php">
+    <p>First Name</p><input type="text" name="first_name" required>
+    <p>Last Name</p><input type="text" name="last_name" required>
+    <p>Number of tickets</p><input type="text" name="number_of_tickets" required>
+    <p>Event Date</p><input type="date" name="date" required><br>
+    <input type="submit" value="Buy">
 </form>
 </div>
 <br>
-<!--<div id="map"></div>-->
+<!--<div id="map"></div>-->';
 
-<good-map api-key="AIzaSyCjrmboDPZHzMNJpv7OQhbUl6y0aVEyS4Q"
-          latitude="51.481680"
-          longitude="-0.190817" zoom="15"
-          id="map"
-          map-options='{"mapTypeId": "terrain"}'>
+  echo '
+  <good-map api-key="AIzaSyCjrmboDPZHzMNJpv7OQhbUl6y0aVEyS4Q" latitude="51.481680 longitude="-0.190817" zoom="15" id="map" map-options="{"mapTypeId:"'.'"terrain"}"></good-map>
+  ';
 
-</good-map>
 
+echo '
 <br>
 <br>
 <br>
@@ -69,3 +68,7 @@
 </footer>
 </body>
 </html>
+';
+?>
+<!--
+ -->
